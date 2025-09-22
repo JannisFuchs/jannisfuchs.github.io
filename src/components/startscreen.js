@@ -1,9 +1,12 @@
-
+import "../stylesheets/startscreen.css"
 function Startpage() {
     
     
     return(
-        <iframe src="/blog/compiledOrgFiles/Startpage.html" title="Startseite"></iframe>
+        <div className="container">
+            <iframe className="fill" src="/blog/compiledOrgFiles/Startpage.html" title="Startseite"></iframe>
+        </div>
+        
     );
     
 }

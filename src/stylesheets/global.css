@@ -1,0 +1,16 @@
+html, body,#root, .container {
+    height: 100%;
+    border:  none;
+}
+.container{
+    display: flex;
+    
+    flex-direction: row; 
+    overflow: hidden;
+}
+iframe {
+    border: none;
+}
+.fill {
+    flex-grow: 1;
+}
