@@ -1,16 +1,16 @@
 import Startpage from "./components/startscreen";
 import Navbar from "./components/navbar";
 import BlogOverview from "./components/blogoverview";
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 function App() {
   return (
-   <BrowserRouter>
+   <Router>
     <Navbar />
-    <Routes>
-      <Route path="/blog" element={<Startpage />} />
-      <Route path="/blog/blogoverview" element={<BlogOverview />} />
+    <Routes >
+      <Route path="/" element={<Startpage />} />
+      <Route path="/blogoverview" element={<BlogOverview />} />
     </Routes>
-   </BrowserRouter>
+   </Router>
   );
 }
 
