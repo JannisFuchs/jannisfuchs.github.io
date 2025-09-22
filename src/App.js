@@ -7,8 +7,8 @@ function App() {
    <BrowserRouter>
     <Navbar />
     <Routes>
-      <Route path="/" element={<Startpage />} />
-      <Route path="/blogoverview" element={<BlogOverview />} />
+      <Route path="/blog" element={<Startpage />} />
+      <Route path="/blog/blogoverview" element={<BlogOverview />} />
     </Routes>
    </BrowserRouter>
   );
