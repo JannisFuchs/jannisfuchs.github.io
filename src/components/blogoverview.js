@@ -7,7 +7,7 @@ function BlogOverview() {
             <ul>
                 {postname.map((post) => (
                     <li key={post}>
-                        <a href={`/blog/${post}`}>{post}</a>
+                        <a href={`/blog/#/week?week=${post}`}>{post}</a>
                     </li>
                 ))}
             </ul>
