@@ -8,9 +8,9 @@ html, body,#root, .container {
     flex-direction: row; 
     overflow: hidden;
 }
-iframe {
-    border: none;
-}
-.fill {
-    flex-grow: 1;
+
+.mainComponent {
+    margin-left: auto;
+    margin-right: auto;
+    flex-grow: 0.33;
 }

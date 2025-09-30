@@ -1,4 +1,6 @@
 #+OPTIONS: toc:nil
-* Hi Das ist mein Blog
+#+TITLE:Mein Blog
 ** hier stehen ganz viele tolle dinge
 ggaaaaaaaaanz viel
+Das ist ein Bild
+[[./images/cuteKiwi.jpg]]

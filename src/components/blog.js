@@ -7,7 +7,7 @@ function Blog() {
 
     return(
         <div className="container">
-            <iframe className="fill" src={`/blog/compiledOrgFiles/${week}.html`} title="Startseite"></iframe>
+            <iframe className="mainComponent" src={`/blog/compiledOrgFiles/${week}.html`} title="Startseite"></iframe>
         </div>
     );
 }

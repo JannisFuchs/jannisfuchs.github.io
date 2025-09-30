@@ -1,2 +1,3 @@
-* Das hab ich in der ersten Woche erlebt
+#+OPTIONS: toc:nil
+#+TITLE: Das hab ich in der ersten Woche erlebt
 Gaaaaaaaaanz viel

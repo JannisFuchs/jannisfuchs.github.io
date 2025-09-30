@@ -1,10 +1,10 @@
-import "../stylesheets/startscreen.css"
+import "../stylesheets/global.css"
 function Startpage() {
     
     
     return(
         <div className="container">
-            <iframe className="fill" src="/blog/compiledOrgFiles/Startpage.html" title="Startseite"></iframe>
+            <iframe className="mainComponent" src="/blog/compiledOrgFiles/Startpage.html" title="Startseite"></iframe>
         </div>
         
     );

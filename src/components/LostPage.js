@@ -1,6 +1,8 @@
 function LostPage(){
     return(
-        <iframe src="/blog/compiledOrgFiles/404Page.html" title="Startseite"></iframe>
+        <div className="container">
+            <iframe className="mainComponent" src="/blog/compiledOrgFiles/404Page.html" title="Startseite"></iframe>
+        </div>
     )
 }
 export default LostPage
